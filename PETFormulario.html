@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Formulario</title>
+
+    <style>
+        table {
+            background-color:#00CCFF;
+            border: outset 2px white;
+        }
+        th {  
+            background-color: yellow; 
+           color: red;
+           border: solid red 2px;
+
+        }
+    
+        
+    </style>
+</head>
+<body>
+    
+<form method="POST" action="http://formadorestic.com/alumnosasir2/procesaformulario_usuario.php">
+
+    <table border="2px">  
+        <tr>
+            <th colspan="2"><center> User Form</center></th>
+        </tr>
+        <tr>
+            <td><label for="nombre"> Enter Name</label></td>
+            <td><input type="text" name="nombre" size="35" id="nombre"></td>
+        </tr>
+        <tr>
+            <td><label for="pass"> Enter Password </label></td>
+            <td><input type="password" name="password" size="35" id="pass" ></td>
+        </tr>
+        <tr>
+            <td><label for="dir"> Enter Address </label></td>
+            <td><textarea name="direccion" id="dir" cols="30" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td>Select Game</td>
+            <td>
+                <input type="checkbox" name="deportes[]" id="Hok" value="Hokey">
+                    <label for="Hok">Hokey</label><br>
+                <input type="checkbox" name="deportes[]" id="Foot" value="Football">
+                    <label for="Foot">Football</label><br>
+                <input type="checkbox" name="deportes[]" id="Bad" value="Badminton">
+                    <label for="Bad">Badminton</label><br>
+                <input type="checkbox" name="deportes[]" id="Cri" value="Cricket">
+                    <label for="Cri">Cricket</label><br>
+                <input type="checkbox" name="deportes[]" id="Voll" value="Volleyball">
+                    <label for="Voll">Volleyball</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="gen">Gender</label></td>
+            <td>
+                <input type="radio" name="sexo" value="Male" id="genX" checked >
+                    <label for="genX">Male</label><br>
+                <input type="radio" name="sexo" value="Female" id="genY">
+                    <label for="genY" >Female</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="age">Select your Age</label></td>
+            <td>
+                <select name="edad" id="age">
+                    
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="20">21</option>
+                    <option value="20">22</option>
+                    <option value="20">23</option>
+                    <option value="0" disabled selected>Select</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <center>
+                <td colspan="2"><input type="file" name="" id=""></td>
+            </center>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <center>
+                    <input type="button" value="Click Me">
+                    <input type="reset">
+                    <input type="submit" value="Submit Form">
+             </center>
+            </td>
+        </tr>
+
+
+    </table>
+
+
+
+
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+ol {
+    list-style-type: lower-greek;
+}
+li:hover {
+   background-color: lightgray;
+   
+}
+
+
+td:hover {
+    background-color: lightgray;
+    border: black
+    
+    2px solid
+    
+}
+div {
+    width: 200px;
+}
+
+/*input: focus
+{background color
+color}
+label:hover
+{back...
+}
+
+
+link rel....   Estilos CSS/archivo*/
