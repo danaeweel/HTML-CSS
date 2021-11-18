@@ -1,0 +1,12 @@
+div {
+    position: fixed;
+    top: 640px;
+    left: 1400px;
+}
+h3 { border: firebrick solid;
+    background-color: gold;
+    color: rgb(204, 38, 38);
+    padding: 20px;
+    
+
+}
