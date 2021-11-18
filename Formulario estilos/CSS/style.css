@@ -1,0 +1,38 @@
+div {
+     background-color: lightskyblue;
+     border: lightsalmon 10px solid ;
+    }
+/*td:hover {
+        color: red;
+
+  } */  
+
+input:hover { background-color: yellow;
+    color: yellow;
+
+ }
+ a {
+     background-color: lightseagreen;
+     color: cyan;
+     border: 2px solid darkblue;
+     text-decoration: none;
+     border: blueviolet dotted;
+
+     
+ }
+ 
+
+
+/*
+.boton {
+    text-decoration:none;
+font-weight:600;
+font-size:20px;
+color:#ffffff;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:40px;
+padding-right:40px;
+background-color:#005BBB;
+}
+        */
