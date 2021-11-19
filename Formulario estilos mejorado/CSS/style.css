@@ -1,0 +1,44 @@
+
+div {
+    background-color: lightskyblue;
+    border: lightsalmon 10px solid ;
+   }
+/*td:hover {
+       color: red;
+ } */  
+
+input:focus { background-color: yellow;
+   color: yellow;
+
+}
+.dv {
+    position: relative;
+    left: 130px;
+    background-color: lightseagreen;
+    color: cyan;
+    border: 2px solid darkblue;
+    
+    border: blueviolet dotted;
+    width: 90px;
+
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+/*
+.boton {
+   text-decoration:none;
+font-weight:600;
+font-size:20px;
+color:#ffffff;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:40px;
+padding-right:40px;
+background-color:#005BBB;
+}
+       */
